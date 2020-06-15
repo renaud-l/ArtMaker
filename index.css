@@ -1,0 +1,30 @@
+body {
+    background-color: #4ed973;
+}
+
+#canvas {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+
+#pallet {
+    height: 10px;
+    width: 100px;
+    margin: auto;
+    border: 1 px solid black;
+    display: flex;
+    flex-flow: row;
+}
+
+#selected {
+    height: 10 px;
+    width: 10 px;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+}
